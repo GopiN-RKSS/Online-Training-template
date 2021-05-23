@@ -47,6 +47,7 @@ div.content {
 .sidebar a:hover:not(.active) {
   background-color: white;
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
   .mt {
@@ -81,5 +82,18 @@ div.content {
   .sidebar a {
     float: left;
     padding: 10px;
+  }
+  .dis {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .dis1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 599px) {
+  .dis {
+    display: none;
   }
 }
