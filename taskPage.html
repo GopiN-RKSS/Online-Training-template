@@ -9,51 +9,51 @@
     <link rel="stylesheet" href="./bootstrap-5.0.0-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min-1.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light fixed-top bg1">
-        <a class="navbar-brand ms-3 text-white" href="#">GuruTraining</a>
+        <a class="navbar-brand ms-3 text-white fw-bold" href="#">GuruTraining</a>
     </nav>
     <div class="sidebar">
-        <a href="#" class="nav-link text-dark">
-            <span class="text-dark">HTML</span>
+        <a href="#" class="nav-link ">
+            <span class="">HTML</span>
         </a>
 
-        <a href="#" class="nav-link text-light active">
-            <span class="text-dark">CSS</span>
+        <a href="#" class="nav-link active">
+            <span class="">CSS</span>
         </a>
 
-        <a href="#" class="nav-link text-light">
-            <span class="text-dark">Bootstrap</span>
+        <a href="#" class="nav-link">
+            <span class="">Bootstrap</span>
         </a>
 
-        <a href="#" class="nav-link text-light">
-            <span class="text-dark">JavaScript</span>
+        <a href="#" class="nav-link">
+            <span class="">JavaScript</span>
         </a>
 
-        <a href="#" class="nav-link text-light">
-            <span class="text-dark">TypeScript</span>
+        <a href="#" class="nav-link">
+            <span class="">TypeScript</span>
         </a>
 
-        <a href="#" class="nav-link text-light">
-            <span class="text-dark">Angular</span>
+        <a href="#" class="nav-link">
+            <span class="">Angular</span>
         </a>
 
-        <a href="#" class="nav-link text-light">
-            <span class="text-dark">React</span>
+        <a href="#" class="nav-link">
+            <span class="">React</span>
         </a>
 
-        <a href="#" class="nav-link text-light">
-            <span class="text-dark">Vue</span>
+        <a href="#" class="nav-link">
+            <span class="">Vue</span>
         </a>
     </div>
 
     <div class="content">
         <div class="row">
-            <div class="col d-inline">
+            <div class="col-md-6 col-sm-12">
                 <div class="dropdown">
-                    
                     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         BackGrounds
@@ -66,7 +66,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-md-6 col-sm-12">
                 <ul class="nav nav-tabs float-end">
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Tasks</a>
@@ -78,11 +78,102 @@
             </div>
             <hr class="divider">
         </div>
+            <div class="tasks mt-3">
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row ">
+                            <div class="col">
+                                Task 1:
+                            </div>
+                            <div class="col text-center d-xs-none">
+                                <a href="">Video Reference</a>
+                            </div>
+                            
+                            <div class="col-md-6 col-sm-12">
+                                <div class="float-end">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Easy
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Medium
+                                    </label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                                    <label class="form-check-label" for="exampleRadios3">
+                                        Hard
+                                    </label>
+                                </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="">
+                        How do you create text on a webpage that will allow you to send an email when clicked?
+                        </div>
+                        <div class="d-grid gap-2 d-md-block text-center mt1">
+                            <button class="btn btn-primary" type="button">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center mt-5 dis">
+                        <li class="page-item">
+                            <span class="page-link">Previous</span>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active" aria-current="page">
+                            <span class="page-link">2</span>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                        <li class="page-item"><a class="page-link" href="#">7</a></li>
+                        <li class="page-item"><a class="page-link" href="#">8</a></li>
+                        <li class="page-item"><a class="page-link" href="#">9</a></li>
+                        <li class="page-item"><a class="page-link" href="#">10</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                    <div class="d-lg-none d-md-none dis1">
+                        <ul class="pagination justify-content-center mt-5 .d-md-none .d-lg-block">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                            <li class="page-item"><a class="page-link" href="#">5</a></li>
+                            <li class="page-item"><a class="page-link" href="#">6</a></li>
+                            <li class="page-item"><a class="page-link" href="#">7</a></li>
+                            <li class="page-item"><a class="page-link" href="#">8</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                       </ul>
+                    </div>
+                </nav>
+            </div>
+    </div>
         
 
     <script src="./bootstrap-5.0.0-dist/js/bootstrap.js"></script>
     <script src="./js/popper.min.js"></script>
-    
     <script src="./bootstrap-5.0.0-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

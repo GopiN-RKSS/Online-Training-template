@@ -1,6 +1,7 @@
 .bg1 {
-  background-color: #ff8c00;
+  background-color: royalblue;
 }
+
 .cen {
   margin-right: auto;
   margin-left: auto;
@@ -17,15 +18,18 @@
 }
 body {
   overflow-x: hidden;
+  font-family: "cambria", arial, helvetica;
+  font-size: 18px;
 }
 .sidebar {
-  top: 57px;
+  top: 60px;
   left: 0;
-  width: 180px;
+  width: 200px;
   height: 100%;
   position: fixed;
-  background-color: #f1f1f1;
+  /* background-color: #c2cad0; */
   overflow: auto;
+  border-right: 1px solid gray;
 }
 .sidebar a {
   display: block;
@@ -33,20 +37,25 @@ body {
   padding-top: 16px;
   padding-left: 40px;
   text-decoration: none;
+  border-bottom: 1px solid cadetblue;
+}
+.sidebar a:last-child {
+  border-bottom: 0;
 }
 .sidebar a.active {
   background-color: #04aa6d;
   color: white;
 }
 div.content {
-  margin-top: 57px;
-  margin-left: 180px;
+  margin-top: 75px;
+  margin-left: 200px;
   padding: 1px 16px;
   height: 1000px;
 }
 .sidebar a:hover:not(.active) {
   background-color: white;
 }
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
   .mt {
@@ -81,5 +90,18 @@ div.content {
   .sidebar a {
     float: left;
     padding: 10px;
+  }
+  .dis {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .dis1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 599px) {
+  .dis {
+    display: none;
   }
 }
